@@ -14,5 +14,10 @@ let breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit);
 let isProfitablePerUnit = profitPerUnit > 0;
 
 
-console.log(productName, discountPrice, finalPriceWithTax, profitPerUnit, breakEvenUnits,isProfitablePerUnit);
+console.log(productName);
+console.log(discountPrice); 
+console.log(finalPriceWithTax); 
+console.log(profitPerUnit);
+console.log(breakEvenUnits);
+console.log(isProfitablePerUnit);
 
